@@ -1,8 +1,4 @@
-SLACK_BOT_TOKEN = "xoxb-"
-SLACK_APP_TOKEN = "xapp-"
-OPENAI_API_KEY = "YOUR_TOKEN"
-OPENAI_API_ORG = "YOUR_ORG"
-
+from secrets import *
 import os
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from slack_sdk import WebClient
